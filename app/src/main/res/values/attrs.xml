@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewAnimatorHorizontal">
+        <!-- Identifier for the animation to use when a view is shown. -->
+        <attr name="inAnimationHorizontal" format="reference" />
+        <!-- Identifier for the animation to use when a view is hidden. -->
+        <attr name="outAnimationHorizontal" format="reference" />
+        <!-- Defines whether to animate the current View when the ViewAnimation
+             is first displayed. -->
+        <attr name="animateFirstViewHorizontal" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+
+
+    </declare-styleable>
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpb_hasShadow" format="boolean"/>
+        <attr name="cpb_progressColor" format="string"/>
+        <attr name="cpb_backgroundColor" format="string"/>
+        <attr name="cpb_title" format="string"/>
+        <attr name="cpb_titleColor" format="string"/>
+        <attr name="cpb_subtitle" format="string"/>
+        <attr name="cpb_subtitleColor" format="string"/>
+        <attr name="cpb_strokeWidth" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="AdapterViewAnimatorHorizontal">
+
+        <attr name="stackViewStyleHorizontal" format="reference" />
+
+        <!-- Identifier for the animation to use when a view is shown. -->
+        <attr name="inAnimationHorizontal" />
+        <!-- Identifier for the animation to use when a view is hidden. -->
+        <attr name="outAnimationHorizontal" />
+        <!--Defines whether the animator loops to the first view once it
+        has reached the end of the list. -->
+        <attr name="loopViewsHorizontal" format="boolean" />
+        <!-- Defines whether to animate the current View when the ViewAnimation
+        is first displayed. -->
+        <attr name="animateFirstViewHorizontal" />
+    </declare-styleable>
+
+    <declare-styleable name="StackViewHorizontal">
+        <!-- Color of the res-out outline. -->
+        <attr name="resOutColorHorizontal" format="color" />
+        <!-- Color of the outline of click feedback. -->
+        <attr name="clickColorHorizontal" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="app">
+        <attr name="customFont" format="string" />
+        <attr name="posX" format="integer"></attr>
+        <attr name="posY" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="canExpand" format="boolean" />
+        <attr name="startExpanded" format="boolean" />
+    </declare-styleable>
+
+</resources>
